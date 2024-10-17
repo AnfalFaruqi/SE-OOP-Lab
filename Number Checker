@@ -1,0 +1,19 @@
+package numberchecker;
+
+public class Numberchecker {
+    
+public static void main(String[] args) {
+
+    int i=9;
+    
+    if(i%2==0)
+        System.out.println("Number is even.");
+    
+    else if (i%2!=0)
+        System.out.println("Number is odd.");
+    
+    else
+        System.out.println("Invalid entry.");
+    }
+    
+}
