@@ -1,0 +1,23 @@
+package student;
+class Student 
+{
+    String name;
+    String city;
+    int age;
+    
+    public static void main (String args[])
+    {
+        Student s1 = new Student();
+        Student s2 = new Student();
+        
+        s1.name = "Lev" ; s1.city = "Kuwait" ; s1.age = 22; 
+        System.out.println("Name:" + s1.name);
+        System.out.println("City: " + s1.city);
+        System.out.println("Age: " + s1.age);
+        
+        s2.name = "Aflan" ; s2.city = "Islamabad" ; s2.age = 19; 
+        System.out.println("Name:" + s2.name);
+        System.out.println("City: " + s2.city);
+        System.out.println("Age: " + s2.age);
+    }
+}
