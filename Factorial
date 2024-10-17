@@ -1,0 +1,17 @@
+package fivefact;
+
+public class FiveFact {
+
+    public static void main(String[] args) {
+      int i=1;
+      int fact=1;
+      
+        while(i<6)
+        {
+        fact*=i;
+        i++;
+        }
+        System.out.println("Factorial of 5 is: " + fact);
+    }
+    
+}
