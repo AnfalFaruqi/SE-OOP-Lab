@@ -1,0 +1,14 @@
+package area;
+class Area
+{
+    int length;
+    int width;
+    
+    public static void main (String args[])
+    {
+        Area a1 = new Area();
+        
+        a1.length = 30 ; a1.width = 60 ;
+        System.out.println("B = " + a1.length*a1.width);
+    }   
+}
