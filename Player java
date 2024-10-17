@@ -1,0 +1,44 @@
+package player;
+
+public class Player {
+
+    String playerName;
+    String position;
+    
+Player(String playerName, String position)
+{
+    this.playerName = playerName;
+    this.position = position;
+}
+    void displayInfo(){
+       System.out.println("Player Name: " + playerName);
+       System.out.println("Player Position: " + position);
+   }
+    
+    public static void main(String[] args){
+       Player p1  = new Player("Lewis", "2nd");
+       Player p2 = new Player("Kurt", "4th");
+       
+       Team t = new Team (p1);
+       Team t2 = new Team (p2);
+       
+       p1.displayInfo();
+       p2.displayInfo();
+    }
+}
+
+package player;
+
+public class Team {
+    Player player;
+    
+    Team(Player player)
+    {
+        this.player = player;
+    }
+    
+   
+public static void main(String[] args) {
+       
+    }
+}
